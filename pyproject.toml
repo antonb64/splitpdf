@@ -1,0 +1,15 @@
+[project]
+name = "exampreppdf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pypdf>=6.6.0",
+]
+
+[project.scripts]
+splitpdf = "split_pdf:main"
+
+[tool.setuptools]
+py-modules = ["split_pdf"]
