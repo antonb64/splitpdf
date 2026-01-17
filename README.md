@@ -19,5 +19,10 @@ You can break down a pdf into bite sized chunks and let the LLM ask you question
    ```sh
    uv run splitpdf path/to/your.pdf --pages 12
    ```
+4. If you want to install the tool on your system you can use the follwoing command (in the rpo):
+   ```sh
+   uv tool install . 
+   ```
+
 
 Each invocation creates `{original}_partN.pdf` files in the same folder, reporting the page ranges for every chunk.
