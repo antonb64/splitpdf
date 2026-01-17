@@ -1,6 +1,9 @@
-# ExamPrepPDF
+# SplitPDF
 
 A tiny CLI tool for breaking long study PDFs into bite-sized, fixed-length chunks so reviewing and annotating become manageable.
+
+I like using this to study with the help of LLMs. 
+You can break down a pdf into bite sized chunks and let the LLM ask you questions about it.
 
 ## Getting Started
 
